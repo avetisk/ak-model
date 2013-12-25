@@ -1,0 +1,34 @@
+{
+  "name": "ak-model",
+  "version": "0.0.1",
+  "description": "model",
+  "keywords": [
+    "data",
+    "model"
+  ],
+  "license": "MIT",
+  "author": "Avétis KAZARIAN",
+  "contributors": "Avétis KAZARIAN",
+  "homepage": "https://github.com/avetisk/ak-model",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/avetisk/ak-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avetisk/ak-model/issues"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": "~0.10.22"
+  },
+  "dependencies": {
+    "ak-eventemitter": "~0.0.2",
+    "stluafed": "~0.0.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.1"
+  }
+}

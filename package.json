@@ -29,6 +29,15 @@
     "stluafed": "~0.0.4"
   },
   "devDependencies": {
-    "mocha": "~1.16.1"
+    "mocha": "~1.16.2",
+    "browserify": "~3.14.1",
+    "karma": "~0.11.9",
+    "karma-mocha": "~0.1.1",
+    "karma-safari-launcher": "~0.1.1",
+    "karma-firefox-launcher": "~0.1.2",
+    "karma-chrome-launcher": "~0.1.2",
+    "envify": "~1.0.1",
+    "karma-coverage": "~0.1.4",
+    "istanbul": "~0.2.1"
   }
 }

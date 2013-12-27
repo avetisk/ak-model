@@ -1,2 +1,2 @@
-ak-collection
-=============
+ak-model
+========

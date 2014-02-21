@@ -2,7 +2,7 @@
 
 'use strict';
 
-var Model = require('../');
+var Model = process.env.AK_MODEL_TEST_COVERAGE ? require('../lib-cov/model') : require('../');
 var assert = require('assert');
 
 describe('Model', function () {
